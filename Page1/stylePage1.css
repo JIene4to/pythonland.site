@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: 'Mulish', sans-serif; 
+    font-size: 14px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/*! CONTAINER */
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* !========= HEADER ========== */
+.header {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+}
+
+/* !========== NAV ========== */
+.nav {
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-link {
+    margin-left: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:first-child{
+    margin-left: 0px;
+}
+
+/*! ================= INTRO ===================*/
+
+.intro {
+    font-family: 'Roboto', sans-serif;
+    height: 450px;
+    padding: top 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2b5b84;
+}
+
+.intro-inner {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 520px;
+}
+
+.intro-title {
+    font-size: 65px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 130px 17% 0px;
+}
+
+/*! ================ CONTENT ============*/
+
+.content {
+    margin: 45px 17% 150px;
+}
+
+.content p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.content img {
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+}
+
+code {
+    font-family: 'Courier Prime', monospace;
+}
+
+.coding {
+    font-family: 'Courier Prime', monospace;
+    padding: 10px;
+    width: 100%;
+    background-color: #fffecc;
+    margin: 30px 0px;
+}
+
+.coding n {
+    color: #18a438;
+}
+
+/*! =============== OUTRO ===============*/
+
+.footer {
+    background-color: #474747;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.footer-text {
+    color: #bdbdbd;
+    font-size: 20px;
+    font-weight: 200;
+    white-space: normal;   
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+    margin-right: 5%;
+}
+
+.footer-text:last-child {
+    margin-right: 0;
+}
+
+.footer-href {
+    color: #a3a2a2;
+}
