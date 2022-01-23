@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Mulish:wght@400;600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylePage1.css">
+        <title>PythonLand - изучай Python!</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header-logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href ='#'>Особенности</a>
+                        <a class="nav-link" href ='#'>Обучение</a>
+                        <a class="nav-link" href ='#'>Категории</a> 
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="intro">
+            <div class="container">
+                <div class="intro-inner">
+                    <h1 class="intro-title">Пишем первую программу</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="container">
+            <div class="content">
+                <p>Сегодня мы напишем первую программу на Python в среде разработки IDLE.</p>
+                <p>При вводе “Python” в поиск компьютера будет выледяться программа IDLE - специальная среда разработки для Python.</p>
+                <img src="img/img1.png" alt="Файл IDLE в Пуске">
+                <p>Открываем это приложение, после чего можно уже писать свою первую программу. По традиции, первой программой у нас будет вывод “Hello world!”.</p>
+                <p>Чтобы написать вывод строки на экран, воспользуемся функцией <code>print()</code></p>    
+                <p class="coding"><n>print</n>("Hello world!")</p>
+                <p>Вводим код и нажимаем Enter. Результат можно увидеть ниже.</p>
+                <img src="img/img2.png" alt="Результат работы программы">
+                <p>Поздравляю, вы создали свою первую програму на Python!</p>
+                <p>Но долго на интерактивном режиме оставаться мы не будем. В основном, мы будем сохранять программный код в файл и запускать уже его.</p>
+                <p>Для открытия файла нажмите File - New File или сочетанием клавиш Ctrl + N</p>
+                <p>В открывшемся окне введите следующий код: </p>
+                <p class="coding">name = <n>input</n>("Как вас зовут?")
+                <br><n>print</n>("Привет, ", name)</p>
+                <p>Первая строка печатает вопрос ("Как Вас зовут? "), ожидает, пока вы не напечатаете что-нибудь и не нажмёте Enter и сохраняет введённое значение в переменной name.</p>
+                <p>Во второй строке мы используем функцию print для вывода текста на экран, в данном случае для вывода "Привет, " и того, что хранится в переменной "name".</p>   
+                <p>Теперь нажмём F5 (или выберем в меню IDLE Run - Run Module) и убедимся, что то, что мы написали, работает. Перед запуском IDLE предложит нам сохранить файл. Сохраним туда, куда вам будет удобно, после чего программа запустится.</p>
+                <p>Вы должны увидеть что-то наподобие этого (на скриншоте слева - файл с написанной вами программой, справа - результат её работы):</p>
+                <img src="img/img3.png" alt="Результат работы программы">
+                <p>Поздравляю! Вы научились писать простейшие программы, а также познакомились со средой разработки IDLE. Скоро вы сможете изучить синтаксис Python, научиться писать циклы и условия. Желаем вам удачи!</p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p class="footer-text">
+                    Этот сайт создан в образовательных целях. Вся информация была взята из сайта <a href="https://pythonworld.ru" class="footer-href">https://pythonworld.ru</a> и принадлежит его владельцу.</p>
+                <p class="footer-text">
+                    Icons by <a href="https://www.flaticon.com/authors/srip" class="footer-href"> srip.</a>
+                    <br>Site by <a href="https://vk.com/average_sucrose_enjoyer" class="footer-href"> Alexey “Jiene_” Yanchuk</a></br>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
